@@ -1,30 +1,179 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Shivam Fialok (sfialok98) </title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Shivam Fialok!</h1>
-				<p>I love programming. I'm currently pursuing B. Tech. in Information Technology from Indian Institute Of Information Technology, Allahabad. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:shivam.fialok98@gmail.com">email</a></li>
-        		<li><a href="https://github.com/sfialok98">github.com/sfialok98</a></li>
-			</ul>
-		</footer>
-	</body>
+<head>
+    <title>Shivam Fialok</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="myNav col-lg-2">
+                    <div class="myNavlink ">
+                        <a href="#about" ><i class="fas fa-address-card"></i></a>
+                        <h1>About</h1>
+                    </div>
+                    <div class="myNavlink ">
+                        <a data-value="skills" href="#skills"><i class="fab fa-python"></i></a>
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="myNavlink">
+                        <a href="#coding" ><i class="fas fa-code"></i></a>
+                        <h1>Coding</h1>
+                    </div>
+                    <div class="myNavlink">
+                        <a href="#projects" ><i class="fas fa-edit"></i></a>
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="myNavlink">
+                        <a href="#contact" ><i class="fas fa-id-card-alt"></i></a>
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+                <div class="myContent col-lg-10">
+                    <div id="about" class="about">
+                        <h1>About Me</h1>
+                        <div class="cont">
+                            <div class="img-cont">
+                                <img src="me.jpg" class="img-fluid">
+                            </div>
+                            <p>Hello there..</p>
+                            <p>I'm Shivam Fialok</p>
+                            <p>I go by the username sfialok98 on many websites.</p>
+                            <p>I'm currently pursuing B. Tech. in Information Technology from IIIT Allahabad.</p>
+                            <p>I love programming.</p>
+                         </div>
+                    </div>
+                    <div id="skills" class="skills">
+                        <h1>Skills</h1>
+                        <div class="skill-cont container">
+                            <div class="row">
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="75%">
+                                    C
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="80%">
+                                    C++
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="70%">
+                                    Java
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="70%">
+                                    Python
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="60%">
+                                    Javascript
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="60%">
+                                    HTML 5
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="60%">
+                                    CSS 3
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="50%">
+                                    jQuery
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="50%">
+                                    Bootstrap
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="60%">
+                                    React
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="60%">
+                                    Node Js
+                                </div>
+                                <div class="skill-item col-lg-3" data-toggle="tooltip" data-placement="top" title="70%">
+                                    SQL
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="coding" class="coding">
+                        <div class="coding-cont"> 
+                            <h1>Coding</h1>
+                            <h2>Handles</h2>
+                            <ul>
+                                <li>Codeforces Handle - <a href="https://www.codeforces.com/profile/sfialok98">sfialok98</a></li>
+                                <li>Codechef Handle - <a href="https://www.codechef.com/users/sfialok98">sfialok98</a></li>
+                                <li>Hackerearth Handle - <a href="https://www.hackerearth.com/@sfialok98">sfialok98</a></li>
+                                <li>Hackerrank Handle - <a href="https://www.hackerrank.com/shivam_fialok98">shivam_fialok98</a></li>
+                                <li>Spoj Handle - <a href="https://www.spoj.com/sfialok98">sfialok98</a></li>
+                            </ul>
+                            <h2>Achievements</h2>
+                            <ul>
+                                <li>Secured a global rank of 18 and a Country rank of 11 in Alkhwarizm 2018, the flagship coding
+                                event of IIIT Allahabad, which is among the most reputed college organized coding events in India.</li>
+                                <li>Secured a global rank of 60 and a Country rank of 20 in Jan. Cook Off 2018, Monthly Rated Short Contest on Codechef.</li>
+                                <li>Ranked 12th in May Circuits 2018, Monthly Rated Long Contest on Hackerearth.</li>
+                                <li>Globally ranked 3rd in Codeathon,a contest hosted by IEEE Student Branch, Manipal University, Jaipur on codecehf.</li>
+                                <li>Globally ranked 5th in Geekhaven contest hosted by the Competitive programming Wing of the Technical Society of IIIT Allahabad.</li>
+                                <li>Qualified for ACM ICPC 2019 Onsite Round held at Amritapuri.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="projects" class="projects">
+                        <h1>Projects</h1>
+                        <div class="container-fluid" style="margin-top: 3em;">
+                            <div class="row">
+                                <div class="myCard col-lg-3">
+                                    <div class="myCard-img">
+                                        <img src="budget.jpg">
+                                    </div>
+                                    <h2>Budget Approval System</h2>
+                                    <div class="myDropDown">
+                                        <p>A GUI based Java Application that lets employees request for budget approval from managers who can approve or disapprove the budget and can see expenditures in the form of graphs and pie charts.</p>
+                                        <p><strong>Skills</strong> - Java, Swing, SQL</p>
+                                        <a class="container-fluid btn btn-dark" href="https://github.com">Go to Project</a>
+                                    </div>
+                                </div>
+                                <div class="myCard col-lg-3">
+                                    <div class="myCard-img">
+                                        <img src="portal.png">
+                                    </div>
+                                    <h2>Feedback Portal System</h2>
+                                    <div class="myDropDown">
+                                        <p>This project lets universities get feedback from faculties and students. Also implemented chatting facility through which students and teachers can remain in touch.</p>
+                                        <p><strong>Skills</strong>- MySQL, HTML, CSS, JavaScript, NodeJS</p>
+                                        <a class="container-fluid btn btn-dark" href="https://github.com/sfialok98/Feedback-Portal">Go to Project</a>
+                                    </div>
+                                </div>
+                                <div class="myCard col-lg-3">
+                                    <div class="myCard-img">
+                                        <img src="ludo.jpg">
+                                    </div>
+                                    <h2>Ludo AI</h2>
+                                    <div class="myDropDown">
+                                        <p>Implemented various strategies for artificially intelligent Ludo AI players. Strategies were Attacking, Defensive, Mixed, Random and Q-Learning.Q Learning players learnt over time based on its experience. </p>
+                                        <p><strong>Skills</strong>- Artificial Intelligence, Game Theory, Reinforcement Learning.</p>
+                                        <a class="container-fluid btn btn-dark" href="https://github.com/rohit659/Ludo-AI">Go to Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="contact" class="contact">
+                        <h1>Contact</h1>
+                        <div class="cont">
+                            <a href="https://www.facebook.com/shivam.fialok.1"><i class="fab fa-facebook"></i></a>
+                            <a href="https://github.com/sfialok98"><i class="fab fa-github"></i></a>
+                            <a href="mailto:shivam.fialok98@gmail.com"><i class="fas fa-paper-plane"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <p>Made by Shivam Fialok</p>
+                    </div>
+
+                </div>
+            <div>
+        </div>
+    </div>
+        <script type="text/javascript" src="app.js"></script>
+</body>
 </html>
