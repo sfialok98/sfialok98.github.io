@@ -1,0 +1,12 @@
+$theme-colors: (
+    "primary": #0e2336,
+    "secondary": #86283a,
+    "warning": #f3a94b,
+    "info": #3498af,
+    "danger": #3f3f4e,
+    "success": #daf8e3,
+);
+
+$enable-responsive-font-sizes: true;
+
+@import '../bootstrap/scss/bootstrap';

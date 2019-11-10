@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Shivam Fialok">
+    <meta name="description" content="This is my portfolio website. My name is Shivam Fialok. Currently doing B. Tech. at IIIT Allahabad. Programmer-Developer">
+    <meta name="keywords" content="Shivam, Fialok, Shivam Fialok, Portfolio, Developer, Programmer, Teaching Assistant, IIIT, Allahabad, IIIT Allahabad, Codeforces, Codechef, SPOJ, Hackerearth,
+                                Hackerrank, Sumo, Logic, Sumo Logic">
+    <link rel="icon" href="imgs/icon/spooky.png" type="image/x-icon">
+    <title>Shivam Fialok</title>
+    <!-- Hotjar Tracking Code for sfialok98.github.io -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1564134,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri:100,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="loading-bar/loading-bar.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <script>
+        function removePreloader() {
+            $("#preloader").delay(500).fadeOut();
+        }
+    </script>
+</head>
+<body data-spy="scroll" data-target="#mainNav" data-offset="60" onload="removePreloader()">
+
+    <!-- Courtsey: https://tobiasahlin.com/spinkit/ -->
+    <div id="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+
+    <header>
+        <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark pt-4 pb-3 fixed-top mx-lg-5 border-bottom">
+            <a class="navbar-brand pb-0" href="#intro">Shivam Fialok</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-white navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-2 mt-lg-0 justify-content-end text-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item pt-2 pt-lg-0">
+                        <a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#programming">Programming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects-heading">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience-heading">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interestsAndContact">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="intro" class=" d-flex align-items-center">
+        <div id="introBackground"></div>
+        <div class="container-fluid m-0 p-0">
+            <div class="mt-5 mt-md-2 row align-items-center">
+                <div data-aos="fade-down" class="mt-5 mt-md-2 col-md-6 text-white order-2 order-md-1" id="introBody">
+                    <h2 class="display-4 ml-5">Hello there</h2>
+                    <h2 class="display-4 ml-5">I'm Shivam Fialok <span class="highlight">(sfialok98)</span></h2>
+                    <h2 class="display-4 ml-5">Programmer |</h2>
+                    <h2 class="display-4 ml-5">Developer <small>(Currently Exploring)</small></h2>
+                    <h2 class="display-4 ml-5">IT Undergrad @ IIIT Allahabad</h2>
+                </div>
+                <div class="col-md-6 order-1 order-md-2" id="introImg">
+                    <div class="img-container mx-auto rounded rounded-circle">
+                        <img src="imgs/shivam.jpg" alt="Shivam Fialok" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center smooth-scroll"><a href="#skills" class="scroll-indicator"><i class="text-white fa fa-angle-down arrow fa-3x"></i></a></div>
+    </section>
+
+    <section id="skills" class="text-primary">
+        <div class="overlay light"></div>
+        <h2 class="display-3 mb-0  text-center">Skills</h2>
+        <div class="container d-flex justify-content-around flex-wrap">
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="80"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">C</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="85"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">C++</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="70"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">Java</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="70"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">Python</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="80"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">Javascript</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="85"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">HTML 5</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="85"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">CSS 3</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="90"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">Bootstrap</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="70"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">React</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="65"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">Node JS</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="75"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">SQL</p>
+            </div>
+            <div class="skill-item">
+                <div
+                    class="ldBar label-center"
+                    style="width:150px;height:150px;margin:auto"
+                    data-targetvalue="70"
+                    data-preset="circle"
+                    data-stroke="#0e2336"
+                >
+                </div>
+                <p class="text-center">Shell</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="programming" class="bg-secondary text-center">
+        <h2 class="display-3 mb-0 text-white">Programming</h2>
+        <p class="lead text-white mb-0">I love programming. </p>
+        <p class="lead text-white">Actively participated in algorithmic programming competitions on various websites like codechef, codeforces, hackerearth etc.</p>
+        <p class="text-warning"><i class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i></p>
+    </section>
+
+    <section id="profiles" class="pt-5 pb-2">
+        
+        <div class="container achievements">
+            <h2 class="display-3 achievement-title text-center">ACHIEVEMENTS</h2>
+            <p class="lead">Secured a global rank of 18 and a Country rank of 11 in Alkhwarizm 2018, the flagship coding event of IIIT Allahabad, which is among the most reputed college organized coding events in India.</p>
+            <p class="lead">Secured a global rank of 60 and a Country rank of 20 in Jan. Cook Off 2018, Monthly Rated Short Contest on Codechef.</p>
+            <p class="lead">Ranked 12th in May Circuits 2018, Monthly Rated Long Contest on Hackerearth.</p>
+            <p class="lead">Globally ranked 3rd in Codeathon,a contest hosted by IEEE Student Branch, Manipal University, Jaipur on codecehf.</p>
+            <p class="lead">Globally ranked 5th in Geekhaven contest hosted by the Competitive programming Wing of the Technical Society of IIIT Allahabad.</p>
+            <p class="lead">Qualified for ACM ICPC 2019 Onsite Round held at Amritapuri.</p>
+            <p class="lead">Candidate Master on Codeforces, 6 stars on Codechef<i class="pl-2 text-primary fas fa-grin-wink"></i></p>
+        </div>
+        <div class="container pt-2 pb-3 px-5 px-sm-0 text-white" >
+            <h1 class="journey px-2 pb-2 display-4 mb-0 text-center text-primary">See my coding journey so for on ...</h2>
+            <div class="row align-items-center justify-content-center" data-aos="fade-up">
+                <a class="text-black handle mx-2" target="_blank" href="https://www.codeforces.com/profile/sfialok98">Codeforces <i class="link fas fa-external-link-alt"></i></a>
+                <a class="text-black handle mx-2" target="_blank" href="https://www.codechef.com/users/sfialok98">Codechef <i class="link fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="row align-items-center justify-content-center" data-aos="fade-up">
+                <a class="text-black handle mx-2" target="_blank" href="https://www.hackerearth.com/@sfialok98">Hackerearth <i class="link fas fa-external-link-alt"></i></a>
+                <a class="text-black handle mx-2" target="_blank" href="https://www.hackerrank.com/shivam_fialok98">Hackerrank <i class="link fas fa-external-link-alt"></i></a>
+                <a class="text-black handle mx-2" target="_blank" href="https://www.spoj.com/sfialok98/">SPOJ <i class="link fas fa-external-link-alt"></i></a>
+            </div>    
+        </div>
+                
+    </section>
+
+    <section id="projects-heading" class="bg-warning text-primary text-center">
+        <h2 class="display-3 mb-0">Projects</h2>
+        <h2 >Check out my <a href="https://github.com/sfialok98" target="_blank" class="text-muted">github profile<i class="link pl-2 fa-1x fas fa-external-link-alt"></i></a></h2>
+    </section>
+
+    <section id="projects" class="py-5 px-2 px-lg-5">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-11 col-sm-8 col-md-5 col-xl-3 card text-center shadow-lg mt-4 p-0" data-aos="fade-up-left">
+                    <img src="imgs/budget.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Budget Approval System</h5>
+                        <p class=" card-text lead">A GUI based Java Application that lets employees request for budget approval from managers who can approve or disapprove the budget and can see expenditures in the form of graphs and pie charts.
+                        <p class=" project-skills lead">Skills - Java, Swing, SQL</p></p>
+                    </div>
+                    <div class="card-footer px-0 bg-primary">
+                        <a href="https://github.com/sfialok98" target="_blank" class="btn btn-block text-white border-0">Go to Project<i class="link pl-2 fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-8 col-md-5 col-xl-3 card text-center shadow-lg mt-4 p-0" data-aos="fade-up">
+                    <img src="imgs/portal.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Feedback Portal System</h5>
+                        <p class=" card-text lead">This project lets universities get feedback from faculties and students. Also implemented chatting facility through which students and teachers can remain in touch.</p>
+                        <p class=" project-skills lead">Skills- MySQL, HTML, CSS, JavaScript, NodeJS</p>
+                    </div>
+                    <div class="card-footer px-0 bg-primary">
+                        <a href="https://github.com/sfialok98/Feedback-Portal" target="_blank" class="btn btn-block text-white border-0">Go to Project<i class="link pl-2 fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-8 col-md-5 col-xl-3 card text-center shadow-lg mt-4 p-0 border" data-aos="fade-up-right">
+                    <img src="imgs/ludo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Ludo AI</h5>
+                        <p class=" card-text lead">Implemented various strategies for artificially intelligent Ludo AI players. Q Learning player was developed that learnt over time based on its experience.</p>
+                        <p class=" project-skills lead">Skills- Artificial Intelligence, Game Theory, Reinforcement Learning.</p>
+                    </div>
+                    <div class="card-footer px-0 bg-primary">
+                        <a href="https://github.com/rohit659/Ludo-AI" target="_blank" class="btn btn-block text-white border-0">Go to Project<i class="link pl-2 fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience-heading" class="bg-info text-primary">
+            <p class="lead"></p>
+            <h2 class="text-center display-3 mb-0">Experience</h2>
+            <h2 class="text-center">Check out my <a href="https://www.linkedin.com/in/shivamfialok98" target="_blank" class="text-danger">linkedIn profile<i class="link pl-2 fa-1x fas fa-external-link-alt"></i></a></h2>
+    </section>
+
+    <section id="experience" class="px-2 py-5">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-11 col-sm-8 col-md-5 mt-4 card text-center shadow-lg p-0 border-0" data-aos="fade-up-right">
+                    <img src="imgs/code.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <h5 class="card-title">Teaching Assistant</h5>
+                        <p class="card-text lead">I have been teaching competitive programming to the first and second years students of my college to prepare them for algorithmic programming competitions and ultimatley ACM ICPC. Also, organized contests and set problems as a part of the above job.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-center lead mb-0 pb-0">Feb. 2018 - Dec. 2019</p>
+                    </div>
+                </div>
+                <div class="col-11 col-sm-8 col-md-5 mt-4 card text-center shadow-lg p-0 border-0" data-aos="fade-up-left">
+                    <img src="imgs/sumo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Internship at Sumo Logic</h5>
+                        <p class="card-text lead">Worked as a UI summer intern at Sumo Logic, Nodia. Worked with React, HTML, Javascript, CSS, NodeJS. Built Library components in react that involved a lot of thinking about the architecture, interfaces, inputs, state management. Met highly experienced people working in the industry.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-center lead mb-0 pb-0">May. 2019 - July. 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interestsAndContact" class="py-5 text-white">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-10 col-lg-5 d-flex flex-column shadow-lg">
+                    <h2 class="display-3  pt-4 text-white text-center mb-0">My interests</h2>
+                    <div id="interests" class="d-flex flex-column  py-4 px-2">
+                        <p class="interest lead mb-0 text-right align-self-end"><i class="fas fa-arrow-right pr-2"></i>I love coding and reading blogs and books.</p>
+                        <p class="interest lead mb-0 text-left align-self-start"><i class="fas fa-arrow-right pr-2"></i>I will cease to exist without music. I love singing aloud when i am alone.<i class="pl-2 text-white fas fa-laugh" aria-hidden="true"></i></p>
+                        <p class="interest lead mb-0 text-right align-self-end"><i class="fas fa-arrow-right pr-2"></i>I am always curious about the vast space around us, this world, the time and our existence.</p>
+                        <p class="interest lead mb-0 text-left align-self-start"><i class="fas fa-arrow-right pr-2"></i>I love watching movies and series when i am bored.</p>
+                        <p class="interest lead mb-0 text-right align-self-end"><i class="fas fa-arrow-right pr-2"></i>Not much of a sports guy, but i sometimes play table tennis for fun.</p>
+                    </div>
+                </div>
+                <div id="contact" class="col-10 col-lg-7">
+                    <h2 class="display-3  pt-4 text-center mb-0">Contact me</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-10 col-md-8">
+                            <form  id="contactForm" method="POST" action="https://formspree.io/mdoonypj" class="text-center">
+                                <input type="text" name="name" id="name" class="form-control my-4 bg-success border-0" placeholder="Name" required>
+                                <input type="email" name="email" id="email" class="form-control my-4 bg-success border-0" placeholder="Email" required>
+                                <textarea name="message" id="messsage" class="form-control my-4 bg-success border-0" rows="4" placeholder="Your message.." required></textarea>
+                                <button type="submit" id="submit" class="mt-auto btn btn-block btn-primary border-0 px-4 py-2">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="thankyouBlock" style="display:none" class="text-center">
+                        <p>
+                            Thank you for filling out the form. Your message is sent.
+                        </p>
+                        <button id="resendForm" class="btn btn-primary">Retry</button>
+                    </div>
+
+                    <div id="errorBlock" style="display:none" class="text-center">
+                        <p>
+                            Something went wrong. Try sending the message again. Reach out to me through my email if the problem persists.
+                        </p>
+                        <button id="retryForm" class="btn btn-primary">Retry</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-primary pt-5 pb-3 text-center text-white">
+        <h2>Find me on</h2>
+        <a href="https://www.facebook.com/shivam.fialok.1" target="_blank" class="text-white mt-2 px-md-4 px-2"><i class="fab fa-2x fa-facebook-f"></i></a>   
+        <a href="https://twitter.com/shivamfialok" target="_blank" class="text-white mt-2 px-md-4 px-2"><i class="fab fa-2x fa-twitter"></i></a>
+        <a href="https://www.instagram.com/shivam_fialok/" target="_blank" class="text-white mt-2 px-md-4 px-2"><i class="fab fa-2x fa-instagram"></i></a>   
+        <a href="https://github.com/sfialok98" target = "_blank" class="text-white px-md-4 px-2"><i class="fab fa-2x mt-2 fa-github"></i></a>  
+        <a href="https://www.linkedin.com/in/shivamfialok98" target="_blank" class="text-white mt-2 px-md-4 px-2"><i class="fab fa-2x fa-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Shivam-Fialok" target="_blank" class="text-white mt-2 px-md-4 px-2"><i class="fab fa-2x fa-quora"></i></a>
+        <a href="mailto:shivam.fialok98@gmail.com" target="_blank" class="text-white mt-2 px-md-4 px-2 "><i class="fa fa-2x fa-envelope"></i></a>
+        <p class="mt-4 pb-0 mb-0">Made with ❤ by Shivam Fialok &copy; 2019</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="imakewebthings/lib/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="loading-bar/loading-bar.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/c00c8d6635.js" crossorigin="anonymous"></script> -->
+    <script src="js/app.js"></script>
+</body>
+</html>
